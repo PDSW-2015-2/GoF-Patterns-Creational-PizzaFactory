@@ -23,7 +23,7 @@ public class PreparadorPizza {
             PreparadorPizza pp=new PreparadorPizza();            
             pp.prepararPizza(ingredientes, Tamano.MEDIANO);
         } catch (ExcepcionParametrosInvalidos ex) {
-            Logger.getLogger(PreparadorPizza.class.getName()).log(Level.SEVERE, "Problema en la preparación de la Pizza", ex);
+            Logger.getLogger(PreparadorPizza.class.getName()).log(Level.SEVERE, "Problema en la preparacion de la Pizza", ex);
         }
                 
     }
